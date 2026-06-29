@@ -1,23 +1,13 @@
 # PENUMBRA · Music Visualizer
 
-A single-file, no-build, in-browser **music visualizer** with a hacker / eclipse aesthetic. Drop in a track (or capture a live stream), pick a visual, and it reacts to the real audio in real time — neon spectra, a 3D triangular-peaks terrain, code rain, aurora curtains, and an Unreal-Engine-style debug HUD with live BPM, key, and a beat timeline.
-
-No install, no dependencies, no server — it's one `index.html`. Everything runs **100% locally**; nothing is uploaded.
-
-### ▶ Demo
-
-[![PENUMBRA Music Visualizer — demo](https://img.youtube.com/vi/qXSvnXlZAhg/hqdefault.jpg)](https://youtu.be/qXSvnXlZAhg)
-
-*(click for the full demo video)*
-
----
+> A single-file, in-browser **music visualizer** with a hacker / eclipse aesthetic. No install — you just open one file in your web browser. Everything runs **100% locally**; nothing is uploaded.
 
 ## 🚀 How to use it (the dead-simple version)
 
 **No coding. No installing. It's just one file you open in your web browser.**
 
 ### Step 1 — Get the file
-- Scroll up, click **`index.html`** in the file list above.
+- Scroll down to the file list, click **`index.html`**.
 - On that page, click the **download icon** (⬇, near the top-right — it may say *"Download raw file"*).
 - Save it somewhere easy to find, like your **Desktop**.
 
@@ -68,6 +58,14 @@ No install, no dependencies, no server — it's one `index.html`. Everything run
 
 ---
 
+## ▶ Demo
+
+[![PENUMBRA Music Visualizer — demo](https://img.youtube.com/vi/qXSvnXlZAhg/hqdefault.jpg)](https://youtu.be/qXSvnXlZAhg)
+
+*(click for the full demo video)*
+
+---
+
 ## Screenshots
 
 | Triangular Peaks | Eclipse Core |
@@ -84,6 +82,10 @@ No install, no dependencies, no server — it's one `index.html`. Everything run
 
 ---
 
+## What it is
+
+A single-file, no-build, in-browser music visualizer. Drop in a track (or capture a live stream), pick a visual, and it reacts to the real audio in real time — neon spectra, a 3D triangular-peaks terrain, code rain, aurora curtains, and an Unreal-Engine-style debug HUD with live BPM, key, and a beat timeline. One `index.html`, no dependencies, no server.
+
 ## Features
 
 - **Real audio reactivity** — Web Audio `AnalyserNode` FFT drives every visual off the actual frequency/waveform data.
@@ -92,7 +94,7 @@ No install, no dependencies, no server — it's one `index.html`. Everything run
 - **Offline track analysis** — decodes the file and computes **BPM** (onset-envelope autocorrelation) and **musical key** (full-track chroma + Krumhansl-Schmuckler), **cached in `localStorage`** so each song is analyzed once.
 - **Live audio capture** — visualize **streamed audio** (YouTube Music, Spotify web, anything) by capturing tab/system audio.
 - **Playlist / queue** — load many tracks, drag-and-drop, auto-advance, prev/next.
-- **Video recording** — capture the canvas + audio to a downloadable `.webm` (great for mix-video intros / now-playing scenes).
+- **Video recording** — capture the canvas + audio to a downloadable `.webm`.
 - **Auto / random mode** — shuffles visuals + settings on a timer, hands-free.
 - **Backgrounds** — optionally composite visuals over a looping video or image (non-Penumbra modes).
 - **Live controls** — reactivity, trails, color-shift speed, visualizer height, brightness, volume, 5 color themes.
@@ -107,20 +109,8 @@ No install, no dependencies, no server — it's one `index.html`. Everything run
 **Spectrum**
 - Radial Spectrum · Waveform · Mirror Bars · Pulse Rings · Tunnel Grid · Particle Burst · Aurora Flow
 
-## Usage
+## Keyboard shortcuts
 
-1. Open `index.html` in a modern browser (Chrome/Edge recommended).
-2. **Load tracks** (button or drag-and-drop MP3/WAV/OGG). Optionally load a background video/image.
-3. Pick a visual from the dropdown, hit play, and tweak the sliders.
-4. **Click the visualization** to play/pause. Mouse-away hides the controls.
-
-### Visualizing streamed audio (YouTube Music, etc.)
-Click **🎙️**, choose the tab playing audio, and **tick "Share tab audio."** The visualizer reacts to that stream live. (Offline BPM/key analysis only works on local files; streams show the live estimate. Tab-audio capture is a Chrome/Edge feature.)
-
-### Recording
-Click **⏺** to record the canvas + audio to a `.webm`. Click again to stop and download. YouTube accepts `.webm` directly.
-
-### Keyboard
 `Space` play/pause · `F` fullscreen · `H` toggle HUD · `←/→` seek ±5s
 
 ## Tech
