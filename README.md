@@ -12,6 +12,62 @@ No install, no dependencies, no server — it's one `index.html`. Everything run
 
 ---
 
+## 🚀 How to use it (the dead-simple version)
+
+**No coding. No installing. It's just one file you open in your web browser.**
+
+### Step 1 — Get the file
+- Scroll up, click **`index.html`** in the file list above.
+- On that page, click the **download icon** (⬇, near the top-right — it may say *"Download raw file"*).
+- Save it somewhere easy to find, like your **Desktop**.
+
+> Prefer one download? Click the green **`<> Code`** button at the top of the repo → **Download ZIP** → unzip it → the file is inside.
+
+### Step 2 — Open it
+- **Double-click `index.html`.** It opens in your web browser. That's the whole app. Done.
+- *(If it opens in a code editor instead, right-click it → **Open with** → **Chrome** or **Edge**.)*
+
+### Step 3 — Play a song
+- **Drag a music file** (an `.mp3`) from your computer **onto the window.** It starts playing and reacting immediately.
+- Or click the **▶ Load Songs** button and pick your files.
+
+### Step 4 — Make it look cool
+- **Move your mouse** to show the controls at the bottom (they hide while it plays).
+- Use the **dropdown menu** to pick a different visual.
+- Click the colored **dots** to change colors; drag the **sliders** to change the feel.
+- Click the **picture itself** to pause/play.
+
+### 🎧 Want to visualize YouTube Music or Spotify instead of a file?
+1. Start playing music in YouTube Music / Spotify in another browser tab.
+2. In the visualizer, click the **🎙️ microphone button**.
+3. A pop-up appears — pick the **tab that's playing music**, and **✅ check the box that says "Share tab audio,"** then click **Share**.
+4. The visuals now react to whatever's playing in that tab.
+
+> ⚠️ If the visuals look flat/dead while doing this, you forgot to check **"Share tab audio."** This part works best in **Chrome or Edge**.
+
+### 🎥 Want to save a video of it?
+- Click the **⏺ record button** to start, then click it again to stop. It saves a video file you can upload to YouTube.
+
+### Button cheat-sheet (bottom bar)
+| Button | What it does |
+|---|---|
+| **▶ / ⏸** | Play / pause (or just click the picture) |
+| **🎲** | Auto mode — randomly cycles visuals for you |
+| **🎙️** | Capture audio from another tab (YouTube Music, etc.) |
+| **🔬** | Analyze the song's BPM & musical key |
+| **⏺** | Record a video |
+| **☰** | Open the playlist / queue |
+| **🎬** | Add a background video or image |
+| **⛶** | Fullscreen |
+
+### If something's not working
+- **Nothing on screen?** Load a song first, and make sure it's playing (click the picture).
+- **No sound or no reaction?** Check your volume, and that the right song/tab is selected.
+- **Use Chrome or Edge.** Some features (like tab-audio capture) don't work in other browsers.
+- Everything runs **on your own computer** — no internet upload, nothing leaves your machine.
+
+---
+
 ## Screenshots
 
 | Triangular Peaks | Eclipse Core |
